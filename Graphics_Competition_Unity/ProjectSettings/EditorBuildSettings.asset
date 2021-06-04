@@ -8,6 +8,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Sigilo/Scenes/Levels/Level1.unity
     guid: d010c9ee0c0128f43b6077fd27fb4356
+  - enabled: 1
+    path: Assets/Sigilo/Scenes/GameOver.unity
+    guid: d809cc41dd2f6724293c7b81269dff46
+  - enabled: 1
+    path: Assets/Sigilo/Scenes/StartGame.unity
+    guid: 5a5721df7daad074187255042116ad35
+  - enabled: 1
+    path: Assets/Sigilo/Scenes/EndGame.unity
+    guid: 914a69239bc649d4b8f515ef97b84a35
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 521e8336601d3634ebf5dc5d690a03c6, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 21d6956bb2a9bf74f83984f3807e6709, type: 2}
