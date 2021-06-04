@@ -8,10 +8,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Sigilo/Scenes/Levels/Level1.unity
     guid: d010c9ee0c0128f43b6077fd27fb4356
-  - enabled: 1
-    path: Assets/Scenes/IntroductionPC.unity
-    guid: b8fe70dea529ed44882c9b2289ebe4ce
-  - enabled: 1
-    path: Assets/Scenes/IntroductionVR.unity
-    guid: abbbe73eff9c21b44929db99c54ac795
-  m_configObjects: {}
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 521e8336601d3634ebf5dc5d690a03c6, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 21d6956bb2a9bf74f83984f3807e6709, type: 2}
