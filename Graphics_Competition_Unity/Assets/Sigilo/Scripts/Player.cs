@@ -5,9 +5,7 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     protected int _hp = 100;
-
     private Transform _transform;
-
     private void Awake()
     {
         _transform = this.GetComponent<Transform>();
