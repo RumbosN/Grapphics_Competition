@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class Intro : MonoBehaviour
 {
     public float timeUntilSceneChange = 0.0f;
+    public string nameScene = "";
 
     private void Start()
     {
@@ -16,7 +17,7 @@ public class Intro : MonoBehaviour
     {
         yield return new WaitForSeconds(timeUntilSceneChange);
 
-        SceneManager.LoadScene("Level1");
+        SceneManager.LoadScene(nameScene);
 
         yield return null;
     }
