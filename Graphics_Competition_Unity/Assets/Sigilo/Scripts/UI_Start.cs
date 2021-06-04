@@ -1,18 +1,38 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class UI_Start : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public GameObject _InfoContainer;
+    private bool _snactivo;
+
+    public void ExitButton()
     {
-        
+        Application.Quit();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void StartButtton()
     {
-        
+        SceneManager.LoadScene("IntroductionVR");
+    }
+
+    public void InfoButton()
+    {
+        if(_snactivo)
+        {
+            _snactivo = false;
+        }
+        else
+        {
+            _snactivo = true;
+        }
+        _InfoContainer.SetActive(_snactivo);
+    }
+
+    public void RestartButton()
+    {
+        SceneManager.LoadScene("StartGame");
     }
 }
