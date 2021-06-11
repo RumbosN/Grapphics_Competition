@@ -15,7 +15,7 @@ public class UI_Start : MonoBehaviour
 
     public void StartButtton()
     {
-        SceneManager.LoadScene("IntroductionVR");
+        SceneManager.LoadScene(1);
     }
 
     public void InfoButton()

@@ -404,9 +404,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Este juego esta creado por el equipo:\n\"Los 5 (float)\xE1sticos\"\n\nFormado
+  m_Text: "Este juego esta creado por el equipo:\n\"Los 6 (float)\xE1sticos\"\n\nFormado
     por:\nH\xE9ctor Jim\xE9nez Mu\xF1oz\nNorelys Rumbos Carrasco\nJos\xE9 Elipe Ib\xE1\xF1ez\nNayd\xFA
-    Vanessa Sabogal Espitia\nEmilio Serrano Lloret"
+    Vanessa Sabogal Espitia\nEmilio Serrano Lloret\nLander Lorenzo Esteban"
 --- !u!222 &272383793
 CanvasRenderer:
   m_ObjectHideFlags: 0
