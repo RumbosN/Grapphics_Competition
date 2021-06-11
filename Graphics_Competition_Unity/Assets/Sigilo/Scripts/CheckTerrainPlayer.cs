@@ -5,6 +5,7 @@ using UnityEngine;
 public class CheckTerrainPlayer : MonoBehaviour
 {
     public ParticleSystem PS_Mud;
+    public AudioSource SplashSound;
 
     protected ParticleSystem.EmissionModule _emission;
 
@@ -15,6 +16,7 @@ public class CheckTerrainPlayer : MonoBehaviour
             _emission = PS_Mud.emission;
 
             //Just in case, by default is deactivated
+            SplashSound.playOnAwake = false;
             _emission.enabled = false;
         }
     }
@@ -25,6 +27,7 @@ public class CheckTerrainPlayer : MonoBehaviour
         if (other.CompareTag("Mud"))
         {
             //Sound
+            SplashSound.Play();
 
             //Particles
             _emission.enabled = true;
