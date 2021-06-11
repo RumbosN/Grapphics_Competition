@@ -10,6 +10,11 @@ public class Portal : MonoBehaviour
     {
         if(other.GetComponent<Player>())
         {
+            int puntuacionMaxima = PlayerPrefs.GetInt("puntuacionMaxima");
+            if(Puntuacion.Instance.puntuacionActual > puntuacionMaxima)
+            {
+                PlayerPrefs.SetInt("puntuacionMaxima", Puntuacion.Instance.puntuacionActual);
+            }
             GameManager.Instance.NextLVL(_nextLVL);
         }
     }
