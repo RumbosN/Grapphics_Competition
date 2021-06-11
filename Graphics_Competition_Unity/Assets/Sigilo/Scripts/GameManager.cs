@@ -21,7 +21,7 @@ public class GameManager : Singleton<GameManager>
             _portal.SetActive(true);
         }
     }
-    public void NextLVL(string lvl)
+    public void NextLVL(int lvl)
     {
         SceneManager.LoadScene(lvl);
     }

@@ -513,6 +513,14 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1579821760058659570, guid: 5bf18d2903889ec44960e74fa290a773, type: 3}
+      propertyPath: _nextLVL
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4656793408412009025, guid: 5bf18d2903889ec44960e74fa290a773, type: 3}
+      propertyPath: _cuantosCheck
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5790002459628541540, guid: 5bf18d2903889ec44960e74fa290a773, type: 3}
       propertyPath: m_IsActive
       value: 1
