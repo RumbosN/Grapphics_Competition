@@ -5,9 +5,15 @@ using UnityEngine;
 public class CheckerCont : MonoBehaviour
 {
     public Material _materialContaminado;
-
     public ParticleSystem PS_VirusCompleted;
 
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.GetComponent<HandInteraction>())
+        {
+            ContamidadoCheck();
+        }
+    }
     public void ContamidadoCheck()
     {
         this.GetComponent<Renderer>().sharedMaterial = _materialContaminado;
